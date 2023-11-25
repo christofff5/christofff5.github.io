@@ -828,6 +828,32 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+/* ... (CSS yang sudah ada sebelumnya) ... */
+
+.resume-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
+  border: none;
+  border-radius: 5px;
+  font-size: var(--fs-3);
+  cursor: pointer;
+  transition: background-color var(--transition-1);
+}
+
+.btn:hover {
+  background-color: var(--vegas-gold);
+}
+
+/* ... (CSS yang sudah ada sebelumnya) ... */
+
 
 
 /**

@@ -157,3 +157,15 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+// Ambil elemen tombol CV dan Cover Letter
+const cvButton = document.querySelector('.btn[href="https://drive.google.com/file/d/1VDV2Evw87DA-my4UU4kaDcuD8JNmBblF/view?usp=sharing"]');
+const coverLetterButton = document.querySelector('.btn[href="https://drive.google.com/file/d/1K33dyM_mOGA-j5OzxEOzLj9Z6akwnLwf/view?usp=sharing"]');
+
+// Tambahkan event listener untuk membuka tautan dalam tab baru
+cvButton.addEventListener('click', () => {
+  window.open(cvButton.href, '_blank');
+});
+
+coverLetterButton.addEventListener('click', () => {
+  window.open(coverLetterButton.href, '_blank');
+});
